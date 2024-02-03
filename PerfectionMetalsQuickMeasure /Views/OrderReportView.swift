@@ -7,12 +7,27 @@
 
 import SwiftUI
 
-struct OrderReport_View: View {
+struct OrderReportView: View {
+    @State private var propertyType: PropertyType = .singleFamily
+    @State private var orderStep: OrderStep = .selectPropertyType
+    // ... your other state variables
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                // Your content here...
+
+                // It's important to have some view returned here,
+                // for now, let's just put an empty Text view as a placeholder
+                Text("Content goes here")
+            }
+            .navigationBarTitle("Order Report", displayMode: .inline)
+        }
     }
 }
 
-#Preview {
-    OrderReport_View()
+struct OrderReportView_Previews: PreviewProvider {
+    static var previews: some View {
+        OrderReportView()
+    }
 }

@@ -3,16 +3,26 @@
 //  Perfection Metals Quick Measure & Design
 //
 //  Created by Jeff Sager on 1/24/24.
-//
 
 import SwiftUI
 
 struct PropertyTypeSelectionView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+    @Binding var selectedPropertyType: PropertyType?
 
-#Preview {
-    PropertyTypeSelectionView()
+    var body: some View {
+        List(PropertyType.allCases, id: \.self) { propertyType in
+            HStack {
+                Text(propertyType.rawValue)
+                Spacer()
+                if selectedPropertyType == propertyType {
+                    Image(systemName: "checkmark")
+                }
+            }
+            .contentShape(Rectangle())
+            .onTapGesture {
+                self.selectedPropertyType = propertyType
+            }
+        }
+        .navigationBarTitle("Select Property Type")
+    }
 }

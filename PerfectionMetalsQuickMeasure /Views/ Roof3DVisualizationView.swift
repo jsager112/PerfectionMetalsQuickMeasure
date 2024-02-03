@@ -2,15 +2,37 @@
 import SwiftUI
 import SceneKit
 
+import SceneKit
+
 struct Roof3DVisualizationView: UIViewRepresentable {
+
     func makeUIView(context: Context) -> SCNView {
-        let view = SCNView(frame: .zero)
-        view.scene = SCNScene()
-        // Add 3D model setup here
-        return view
+        let scnView = SCNView()
+
+        // Set the scene to the file you just created
+        scnView.scene = SCNScene(named: "RoofScene.scn")  // Make sure the name matches your file's name
+
+        // Configure additional scene settings
+        scnView.autoenablesDefaultLighting = true
+        scnView.allowsCameraControl = true
+        scnView.backgroundColor = UIColor.clear
+
+        return scnView
     }
 
-    func updateUIView(_ uiView: SCNView, context: Context) {
-        // Update the 3D model based on user interactions or data changes
+    func updateUIView(_ scnView: SCNView, context: Context) {
+        // Perform any updates to the SCNView when state changes occur
+    }
+
+    // Make sure to provide a preview for SwiftUI
+    static var previews: some View {
+        Roof3DVisualizationView()
     }
 }
+
+struct Roof3DVisualizationView_Previews: PreviewProvider {
+    static var previews: some View {
+        Roof3DVisualizationView()
+    }
+}
+

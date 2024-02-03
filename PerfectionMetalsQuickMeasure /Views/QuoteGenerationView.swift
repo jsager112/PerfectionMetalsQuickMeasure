@@ -5,14 +5,18 @@
 //  Created by Jeff Sager on 12/29/23.
 //
 
-import Foundation
-// QuoteGenerationView.swift
 import SwiftUI
 
 struct QuoteGenerationView: View {
-    // Add properties and methods for quote generation
     var body: some View {
-        // UI elements to display and interact with the quote
+        // Your code here
+        Text("Generate a Quote")
+    }
+}
+
+struct QuoteGenerationView_Previews: PreviewProvider {
+    static var previews: some View {
+        QuoteGenerationView()
     }
 }
 

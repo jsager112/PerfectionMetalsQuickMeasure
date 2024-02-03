@@ -8,18 +8,37 @@
 import Foundation
 import SwiftUI
 import SceneKit
+import Combine // Import Combine here
 
-struct Roof3DVisualizationView: UIViewRepresentable {
-    func makeUIView(context: Context) -> SCNView {
-        let scnView = SCNView()
-        scnView.scene = SCNScene() // Initialize with your 3D model
-        
-        // Configure the scene view here
-        
-        return scnView
+class RoofVisualizationViewModel: ObservableObject {
+    @Published var scene: SCNScene?
+    @Published var isProcessing = false
+
+    private var cancellables = Set<AnyCancellable>() // This will now be recognized
+
+    init() {
+        loadRoofScene()
     }
     
-    func updateUIView(_ scnView: SCNView, context: Context) {
-        // Update the view when your app's state changes
+    func loadRoofScene() {
+        self.isProcessing = true
+        // Assuming "roofScene.scnassets" is the directory in your app bundle
+        // where you keep the .scn file and related resources
+        let sceneName = "roofScene.scnassets/roofScene"
+        DispatchQueue.global(qos: .userInitiated).async {
+            guard let scene = SCNScene(named: sceneName) else {
+                DispatchQueue.main.async {
+                    self.isProcessing = false
+                    // Handle the error, show an alert, etc.
+                }
+                return
+            }
+            DispatchQueue.main.async {
+                self.scene = scene
+                self.isProcessing = false
+            }
+        }
     }
+    
+    // Add methods for user interaction, network requests, etc.
 }

@@ -4,14 +4,16 @@
 //
 //  Created by Jeff Sager on 1/7/24.
 //
-
-import Foundation
-// Swift file for the roof measurement data model.
 import Foundation
 
-struct RoofMeasurement {
+struct RoofMeasurementswift {
     var length: Double
     var width: Double
     var height: Double
-    // Define additional properties if necessary
+
+    init(length: Double, width: Double, height: Double) {
+        self.length = length
+        self.width = width
+        self.height = height
+    }
 }

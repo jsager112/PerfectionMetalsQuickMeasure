@@ -6,3 +6,12 @@
 //
 
 import Foundation
+import Foundation
+
+enum PropertyType: String, CaseIterable, Identifiable, Hashable {
+    case singleFamily = "Single Family"
+    case multifamily = "Multifamily"
+    case commercial = "Commercial"
+    
+    var id: String { self.rawValue }
+}

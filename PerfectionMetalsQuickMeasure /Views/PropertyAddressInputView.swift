@@ -8,11 +8,25 @@
 import SwiftUI
 
 struct PropertyAddressInputView: View {
+    @Binding var city: String
+    @Binding var state: String
+    @Binding var zipCode: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            Text("Enter Property Address")
+                .font(.headline)
+            
+            TextField("City", text: $city)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+            
+            TextField("State", text: $state)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+            
+            TextField("Zip Code", text: $zipCode)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+                .keyboardType(.numberPad)
+        }
+        .padding()
     }
-}
-
-#Preview {
-    PropertyAddressInputView()
 }

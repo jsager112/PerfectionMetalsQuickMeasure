@@ -6,13 +6,16 @@
 //
 
 import SwiftUI
+import SceneKit
 
 struct RoofSceneView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        SceneView(
+            scene: SCNScene(named: "RoofScene.scn"),
+            options: [.autoenablesDefaultLighting, .allowsCameraControl]
+        )
     }
 }
-
 #Preview {
     RoofSceneView()
 }

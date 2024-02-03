@@ -18,9 +18,9 @@ struct ContentView: View {
                     Text("Create Account")
                         .frame(minWidth: 0, maxWidth: .infinity)
                         .padding()
-                        .foregroundColor(.white)
                         .background(Color.blue)
                         .cornerRadius(40)
+                        .foregroundColor(.white)
                         .padding(.horizontal, 50)
                 }
                 
@@ -28,9 +28,9 @@ struct ContentView: View {
                     Text("Login")
                         .frame(minWidth: 0, maxWidth: .infinity)
                         .padding()
-                        .foregroundColor(.white)
                         .background(Color.green)
                         .cornerRadius(40)
+                        .foregroundColor(.white)
                         .padding(.horizontal, 50)
                 }
                 
@@ -43,3 +43,10 @@ struct ContentView: View {
         }
     }
 }
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView() 
+    }
+}
+
