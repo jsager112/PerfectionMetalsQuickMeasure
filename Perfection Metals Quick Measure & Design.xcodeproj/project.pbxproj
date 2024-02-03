@@ -11,6 +11,12 @@
 		8EA19F9A2AF6E0AA00FE87FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA19F992AF6E0AA00FE87FA /* ContentView.swift */; };
 		8EA19F9C2AF6E0AD00FE87FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA19F9B2AF6E0AD00FE87FA /* Assets.xcassets */; };
 		8EA19F9F2AF6E0AD00FE87FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA19F9E2AF6E0AD00FE87FA /* Preview Assets.xcassets */; };
+		8EA19FA72AF6E21500FE87FA /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA19FA62AF6E21500FE87FA /* Metal.framework */; };
+		8EA19FA92B03F13B00FE87FA /* MeasureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA19FA82B03F13B00FE87FA /* MeasureView.swift */; };
+		8EA19FAB2B04003100FE87FA /* Quick Measure Step 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA19FAA2B04003100FE87FA /* Quick Measure Step 1.swift */; };
+		8EA19FAD2B04007200FE87FA /* Quick Measure Step 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA19FAC2B04007200FE87FA /* Quick Measure Step 2.swift */; };
+		8EA19FAF2B04008100FE87FA /* Quick Measure Step 3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA19FAE2B04008100FE87FA /* Quick Measure Step 3.swift */; };
+		8EA19FB12B04009500FE87FA /* Quick Measure Step 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA19FB02B04009500FE87FA /* Quick Measure Step 4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		8EA19F992AF6E0AA00FE87FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8EA19F9B2AF6E0AD00FE87FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EA19F9E2AF6E0AD00FE87FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EA19FA62AF6E21500FE87FA /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		8EA19FA82B03F13B00FE87FA /* MeasureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureView.swift; sourceTree = "<group>"; };
+		8EA19FAA2B04003100FE87FA /* Quick Measure Step 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quick Measure Step 1.swift"; sourceTree = "<group>"; };
+		8EA19FAC2B04007200FE87FA /* Quick Measure Step 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quick Measure Step 2.swift"; sourceTree = "<group>"; };
+		8EA19FAE2B04008100FE87FA /* Quick Measure Step 3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quick Measure Step 3.swift"; sourceTree = "<group>"; };
+		8EA19FB02B04009500FE87FA /* Quick Measure Step 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quick Measure Step 4.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EA19FA72AF6E21500FE87FA /* Metal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +50,7 @@
 			children = (
 				8EA19F962AF6E0AA00FE87FA /* Perfection Metals Quick Measure & Design */,
 				8EA19F952AF6E0AA00FE87FA /* Products */,
+				8EA19FA52AF6E21500FE87FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +67,12 @@
 			children = (
 				8EA19F972AF6E0AA00FE87FA /* Perfection_Metals_Quick_Measure___DesignApp.swift */,
 				8EA19F992AF6E0AA00FE87FA /* ContentView.swift */,
+				8EA19FA82B03F13B00FE87FA /* MeasureView.swift */,
 				8EA19F9B2AF6E0AD00FE87FA /* Assets.xcassets */,
+				8EA19FAA2B04003100FE87FA /* Quick Measure Step 1.swift */,
+				8EA19FAC2B04007200FE87FA /* Quick Measure Step 2.swift */,
+				8EA19FAE2B04008100FE87FA /* Quick Measure Step 3.swift */,
+				8EA19FB02B04009500FE87FA /* Quick Measure Step 4.swift */,
 				8EA19F9D2AF6E0AD00FE87FA /* Preview Content */,
 			);
 			path = "Perfection Metals Quick Measure & Design";
@@ -65,6 +84,14 @@
 				8EA19F9E2AF6E0AD00FE87FA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EA19FA52AF6E21500FE87FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EA19FA62AF6E21500FE87FA /* Metal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +165,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EA19F9A2AF6E0AA00FE87FA /* ContentView.swift in Sources */,
+				8EA19FAB2B04003100FE87FA /* Quick Measure Step 1.swift in Sources */,
+				8EA19FA92B03F13B00FE87FA /* MeasureView.swift in Sources */,
+				8EA19FAD2B04007200FE87FA /* Quick Measure Step 2.swift in Sources */,
 				8EA19F982AF6E0AA00FE87FA /* Perfection_Metals_Quick_Measure___DesignApp.swift in Sources */,
+				8EA19FAF2B04008100FE87FA /* Quick Measure Step 3.swift in Sources */,
+				8EA19FB12B04009500FE87FA /* Quick Measure Step 4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +306,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Perfection Metals Quick Measure & Design/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.perfectionmetals.quickmeasure.Perfection-Metals-Quick-Measure---Design";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectionmetals.quickmeasure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -302,6 +335,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Perfection Metals Quick Measure & Design/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -312,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.perfectionmetals.quickmeasure.Perfection-Metals-Quick-Measure---Design";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectionmetals.quickmeasure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

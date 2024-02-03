@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23D5051b" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="HomeOwner" representedClassName="HomeOwner" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="firstname" optional="YES" attributeType="String"/>
+        <attribute name="lastname" optional="YES" attributeType="String"/>
+        <attribute name="phonenumber" optional="YES" attributeType="String"/>
+        <attribute name="ui" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="jobsite" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HomeOwner" inverseName="jobsite" inverseEntity="HomeOwner"/>
+    </entity>
+    <entity name="Jobsite" representedClassName="Jobsite" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="datecreated" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="homeownername" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="phonenumber" optional="YES" attributeType="String"/>
+        <attribute name="propertytype" optional="YES" attributeType="String"/>
+        <relationship name="homeowner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Jobsite" inverseName="homeowner" inverseEntity="Jobsite"/>
+        <relationship name="measurements" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Jobsite" inverseName="measurements" inverseEntity="Jobsite"/>
+        <relationship name="photos" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Jobsite" inverseName="photos" inverseEntity="Jobsite"/>
+        <relationship name="visualizations" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Jobsite" inverseName="visualizations" inverseEntity="Jobsite"/>
+    </entity>
+    <entity name="Photo" representedClassName="Photo" syncable="YES" codeGenerationType="class">
+        <attribute name="dateTaken" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="imagedata" optional="YES" attributeType="Binary"/>
+        <attribute name="photodescripition" optional="YES" attributeType="String"/>
+        <relationship name="jobsite" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Photo" inverseName="jobsite" inverseEntity="Photo"/>
+    </entity>
+    <entity name="RoofMeasurement" representedClassName="RoofMeasurement" syncable="YES" codeGenerationType="class">
+        <attribute name="eaves" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="height" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="length" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="pitch" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="rake" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="rigde" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="valley" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="width" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="UserAccount" representedClassName="UserAccount" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="firstname" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="lastname" optional="YES" attributeType="String"/>
+        <attribute name="phonenumber" optional="YES" attributeType="String"/>
+        <relationship name="jobsites" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="UserAccount" inverseName="jobsites" inverseEntity="UserAccount"/>
+    </entity>
+    <entity name="Visualization" representedClassName="Visualization" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="String"/>
+        <attribute name="imagedata" optional="YES" attributeType="Binary"/>
+        <relationship name="visualizationtojobsite" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Visualization" inverseName="visualizationtojobsite" inverseEntity="Visualization"/>
+    </entity>
+</model>

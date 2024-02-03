@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array/>
+	<key>UIInterfaceOrientationsPortrait</key>
+	<string>6.0</string>
+	<key>UIInterfaceOrientationsLandscapeLeft</key>
+	<string>6.0</string>
+	<key>UIInterfaceOrientationsLandscapeRight</key>
+	<string>6.0</string>
+	<key>UIInterfaceOrientationsPortraitUpsideDown</key>
+	<string>6.0</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array/>
+	<key>Camera</key>
+	<string>0</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires photo access to store photos of each roofing project </string>
+	<key>GPS</key>
+	<string>6.0</string>
+	<key>Armv7</key>
+	<string>6.0</string>
+	<key>Location</key>
+	<string>This app requires location access to take photos of your property for measurements</string>
+	<key>Photos</key>
+	<string>This app requires photo access to store photos of your property </string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleDisplayName</key>
+	<string>Perfection Metals Quick Measure</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.perfectionmetalsquickmeasure</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>com.perfectionmetalsquickmeasure</key>
+			<dict/>
+			<key>NSIncludesSubdomains</key>
+			<true/>
+			<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>
