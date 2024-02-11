@@ -8,30 +8,37 @@
 import SwiftUI
 import Firebase
 
-@main
-struct YourApp: App {
-    init() {
+// Make sure the name 'AppDelegate' is unique across the project
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Configure Firebase if you're using it
         FirebaseApp.configure()
+        
+        // Additional setup can be done here
+        
+        return true
     }
     
+    // Implement other UIApplicationDelegate methods as needed
+}
+
+@main
+struct PerfectionMetalsApp: App {
+    // Register your app's delegate if needed
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
     var body: some Scene {
         WindowGroup {
-            ContentView(greeting: <#String#>)
-        }
-    }
-    struct ContentView: View {
-        let greeting: String
-        
-        init(greeting: String) {
-            self.greeting = greeting
-        }
-        var body: some View {
-            Text(greeting)
-        }
-    }
-    struct YourAppName_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView(greeting: "Hello, World!")
+            ContentView()
         }
     }
 }
+
+struct ContentView: View {
+struct ContentView: View {
+    var body: some View {
+        Text("LoginView")
+    }
+}
+
+

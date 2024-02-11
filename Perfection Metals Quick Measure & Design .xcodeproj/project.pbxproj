@@ -10,19 +10,19 @@
 		8E01426A2B3F62C500E7CAF3 /* ImageCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0142692B3F62C500E7CAF3 /* ImageCaptureView.swift */; };
 		8E0142722B3F63AD00E7CAF3 /* QuoteGenerationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0142712B3F63AD00E7CAF3 /* QuoteGenerationView.swift */; };
 		8E11047A2B5C76D600C37510 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1104792B5C76D600C37510 /* Styles.swift */; };
-		8E38756E2B56F59F00F78A49 /* plist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E38756D2B56F59F00F78A49 /* plist.plist */; };
-		8E3875802B5784C700F78A49 /* RoofMeasurement+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3875742B5784C600F78A49 /* RoofMeasurement+CoreDataClass.swift */; };
-		8E3875812B5784C700F78A49 /* RoofMeasurement+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3875752B5784C600F78A49 /* RoofMeasurement+CoreDataProperties.swift */; };
-		8E3875822B5784C700F78A49 /* UserAccount+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3875762B5784C600F78A49 /* UserAccount+CoreDataClass.swift */; };
-		8E3875832B5784C700F78A49 /* UserAccount+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3875772B5784C600F78A49 /* UserAccount+CoreDataProperties.swift */; };
-		8E3875842B5784C700F78A49 /* Visualization+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3875782B5784C600F78A49 /* Visualization+CoreDataClass.swift */; };
-		8E3875852B5784C700F78A49 /* Visualization+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3875792B5784C600F78A49 /* Visualization+CoreDataProperties.swift */; };
-		8E3875862B5784C700F78A49 /* Jobsite+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38757A2B5784C600F78A49 /* Jobsite+CoreDataClass.swift */; };
-		8E3875872B5784C700F78A49 /* Jobsite+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38757B2B5784C600F78A49 /* Jobsite+CoreDataProperties.swift */; };
-		8E3875882B5784C700F78A49 /* Photo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38757C2B5784C600F78A49 /* Photo+CoreDataClass.swift */; };
-		8E3875892B5784C700F78A49 /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38757D2B5784C600F78A49 /* Photo+CoreDataProperties.swift */; };
-		8E38758A2B5784C700F78A49 /* HomeOwner+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38757E2B5784C600F78A49 /* HomeOwner+CoreDataClass.swift */; };
-		8E38758B2B5784C700F78A49 /* HomeOwner+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E38757F2B5784C600F78A49 /* HomeOwner+CoreDataProperties.swift */; };
+		8E3875802B5784C700F78A49 /* RoofMeasurement+CoreDataClass.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8E3875742B5784C600F78A49 /* RoofMeasurement+CoreDataClass.swift */; };
+		8E3875812B5784C700F78A49 /* RoofMeasurement+CoreDataProperties.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8E3875752B5784C600F78A49 /* RoofMeasurement+CoreDataProperties.swift */; };
+		8E3875822B5784C700F78A49 /* UserAccount+CoreDataClass.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8E3875762B5784C600F78A49 /* UserAccount+CoreDataClass.swift */; };
+		8E3875832B5784C700F78A49 /* UserAccount+CoreDataProperties.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8E3875772B5784C600F78A49 /* UserAccount+CoreDataProperties.swift */; };
+		8E3875842B5784C700F78A49 /* Visualization+CoreDataClass.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8E3875782B5784C600F78A49 /* Visualization+CoreDataClass.swift */; };
+		8E3875852B5784C700F78A49 /* Visualization+CoreDataProperties.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8E3875792B5784C600F78A49 /* Visualization+CoreDataProperties.swift */; };
+		8E3875862B5784C700F78A49 /* Jobsite+CoreDataClass.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8E38757A2B5784C600F78A49 /* Jobsite+CoreDataClass.swift */; };
+		8E3875872B5784C700F78A49 /* Jobsite+CoreDataProperties.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8E38757B2B5784C600F78A49 /* Jobsite+CoreDataProperties.swift */; };
+		8E3875882B5784C700F78A49 /* Photo+CoreDataClass.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8E38757C2B5784C600F78A49 /* Photo+CoreDataClass.swift */; };
+		8E3875892B5784C700F78A49 /* Photo+CoreDataProperties.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8E38757D2B5784C600F78A49 /* Photo+CoreDataProperties.swift */; };
+		8E38758A2B5784C700F78A49 /* HomeOwner+CoreDataClass.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8E38757E2B5784C600F78A49 /* HomeOwner+CoreDataClass.swift */; };
+		8E38758B2B5784C700F78A49 /* HomeOwner+CoreDataProperties.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8E38757F2B5784C600F78A49 /* HomeOwner+CoreDataProperties.swift */; };
+		8E44C1A12B76A1E80072C587 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E44C1A02B76A1E80072C587 /* Info.plist */; };
 		8E5148E12B636190006F1E5F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 8E5148E02B636190006F1E5F /* FirebaseAnalytics */; };
 		8E5148E32B636190006F1E5F /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 8E5148E22B636190006F1E5F /* FirebaseAnalyticsOnDeviceConversion */; };
 		8E5148E52B636190006F1E5F /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8E5148E42B636190006F1E5F /* FirebaseAnalyticsSwift */; };
@@ -30,8 +30,6 @@
 		8E5148E92B636190006F1E5F /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 8E5148E82B636190006F1E5F /* FirebaseAppCheck */; };
 		8E54F2A72B532BB4007E4B00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E54F2A62B532BB4007E4B00 /* AppDelegate.swift */; };
 		8E589F2E2B6C0E47009AB8B3 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E589F2D2B6C0E47009AB8B3 /* ARKit.framework */; };
-		8E589F322B6C1FDB009AB8B3 /* ARSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E589F312B6C1FDB009AB8B3 /* ARSceneView.swift */; };
-		8E905EFC2B45DC4D0032B24E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E905EFB2B45DC4D0032B24E /* Info.plist */; };
 		8E905EFE2B460E890032B24E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E905EFD2B460E890032B24E /* SwiftUI.framework */; };
 		8EA070BC2B508F9F00925619 /* PlaceOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA070BB2B508F9F00925619 /* PlaceOrderView.swift */; };
 		8EA070BE2B50903000925619 /* EnterAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA070BD2B50903000925619 /* EnterAddressView.swift */; };
@@ -42,7 +40,6 @@
 		8EA35A0A2B60610B00365E7D /* OrderReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA35A092B60610B00365E7D /* OrderReportView.swift */; };
 		8EA35A0F2B62042D00365E7D /* PropertyTypeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA35A0E2B62042D00365E7D /* PropertyTypeSelectionView.swift */; };
 		8EA35A112B62047C00365E7D /* PropertyAddressInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA35A102B62047C00365E7D /* PropertyAddressInputView.swift */; };
-		8EA660A72B62F09F00A83275 /* RoofScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 8EA660A62B62F09F00A83275 /* RoofScene.scn */; };
 		8EA660A92B62F2CE00A83275 /* RoofSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA660A82B62F2CE00A83275 /* RoofSceneView.swift */; };
 		8EA660AB2B62F31F00A83275 /* RoofScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA660AA2B62F31F00A83275 /* RoofScene.swift */; };
 		8EADC2852B66F48100BB7C1D /* PropertyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADC2842B66F48100BB7C1D /* PropertyType.swift */; };
@@ -54,8 +51,8 @@
 		8EE6F8CF2B4B132A00C09EE7 /* RoofMeasurementsProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6F8CE2B4B132A00C09EE7 /* RoofMeasurementsProcessor.swift */; };
 		8EE6F8D12B4B135A00C09EE7 /*  Roof3DVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6F8D02B4B135A00C09EE7 /*  Roof3DVisualizationView.swift */; };
 		8EE6F8D32B4B138F00C09EE7 /* ColorCustomizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6F8D22B4B138F00C09EE7 /* ColorCustomizationView.swift */; };
-		8EE6F8F52B4B64F700C09EE7 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6F8F42B4B64F700C09EE7 /* NetworkingService.swift */; };
-		8EE6F8F72B4B652C00C09EE7 /* DataPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6F8F62B4B652C00C09EE7 /* DataPersistenceService.swift */; };
+		8EE6F8F52B4B64F700C09EE7 /* NetworkingService.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8EE6F8F42B4B64F700C09EE7 /* NetworkingService.swift */; };
+		8EE6F8F72B4B652C00C09EE7 /* DataPersistenceService.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8EE6F8F62B4B652C00C09EE7 /* DataPersistenceService.swift */; };
 		8EE6F8FB2B4B65A700C09EE7 /* RoofVisualizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6F8FA2B4B65A700C09EE7 /* RoofVisualizationViewModel.swift */; };
 		8EE6F9022B4BA85E00C09EE7 /* RoofMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6F9012B4BA85E00C09EE7 /* RoofMeasurement.swift */; };
 		8EE6F9042B4C682300C09EE7 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6F9032B4C682300C09EE7 /* Color+Extensions.swift */; };
@@ -67,11 +64,20 @@
 		8EFA2DF52B599DF100E31902 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA2DF42B599DF100E31902 /* CreateAccountView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8E6ACFD42B76595900E26688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E6ACFD02B76595900E26688 /* 3DVisualization.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8E6518A02B75469600B31C4C;
+			remoteInfo = 3DVisualization;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		8E0142692B3F62C500E7CAF3 /* ImageCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureView.swift; sourceTree = "<group>"; };
 		8E0142712B3F63AD00E7CAF3 /* QuoteGenerationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteGenerationView.swift; sourceTree = "<group>"; };
 		8E1104792B5C76D600C37510 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
-		8E38756D2B56F59F00F78A49 /* plist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = plist.plist; sourceTree = "<group>"; };
 		8E3875742B5784C600F78A49 /* RoofMeasurement+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RoofMeasurement+CoreDataClass.swift"; path = "../RoofMeasurement+CoreDataClass.swift"; sourceTree = "<group>"; };
 		8E3875752B5784C600F78A49 /* RoofMeasurement+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RoofMeasurement+CoreDataProperties.swift"; path = "../RoofMeasurement+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8E3875762B5784C600F78A49 /* UserAccount+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserAccount+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -84,11 +90,11 @@
 		8E38757D2B5784C600F78A49 /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Photo+CoreDataProperties.swift"; path = "../Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8E38757E2B5784C600F78A49 /* HomeOwner+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HomeOwner+CoreDataClass.swift"; path = "../HomeOwner+CoreDataClass.swift"; sourceTree = "<group>"; };
 		8E38757F2B5784C600F78A49 /* HomeOwner+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HomeOwner+CoreDataProperties.swift"; path = "../HomeOwner+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8E44C1A02B76A1E80072C587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E54F2A62B532BB4007E4B00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E54F2A82B5339A7007E4B00 /* GoogleService-Info-1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-1.plist"; sourceTree = "<group>"; };
 		8E589F2D2B6C0E47009AB8B3 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
-		8E589F312B6C1FDB009AB8B3 /* ARSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneView.swift; sourceTree = "<group>"; };
-		8E905EFB2B45DC4D0032B24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6ACFD02B76595900E26688 /* 3DVisualization.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 3DVisualization.xcodeproj; path = ../../3DVisualization/3DVisualization.xcodeproj; sourceTree = "<group>"; };
 		8E905EFD2B460E890032B24E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		8EA070BB2B508F9F00925619 /* PlaceOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrderView.swift; sourceTree = "<group>"; };
 		8EA070BD2B50903000925619 /* EnterAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterAddressView.swift; sourceTree = "<group>"; };
@@ -100,13 +106,12 @@
 		8EA35A092B60610B00365E7D /* OrderReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderReportView.swift; sourceTree = "<group>"; };
 		8EA35A0E2B62042D00365E7D /* PropertyTypeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTypeSelectionView.swift; sourceTree = "<group>"; };
 		8EA35A102B62047C00365E7D /* PropertyAddressInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAddressInputView.swift; sourceTree = "<group>"; };
-		8EA660A62B62F09F00A83275 /* RoofScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = RoofScene.scn; sourceTree = "<group>"; };
 		8EA660A82B62F2CE00A83275 /* RoofSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofSceneView.swift; sourceTree = "<group>"; };
 		8EA660AA2B62F31F00A83275 /* RoofScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofScene.swift; sourceTree = "<group>"; };
 		8EADC2842B66F48100BB7C1D /* PropertyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyType.swift; sourceTree = "<group>"; };
 		8EADC2862B67351A00BB7C1D /* OrderStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStep.swift; sourceTree = "<group>"; };
 		8EDD69812B505921004B7524 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		8EDD69892B506760004B7524 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EDD69892B506760004B7524 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "PerfectionMetalsQuickMeasure /Views/ContentView.swift"; sourceTree = SOURCE_ROOT; };
 		8EDD69932B5081C3004B7524 /* PerfectionMetalsQuickMeasureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectionMetalsQuickMeasureApp.swift; sourceTree = "<group>"; };
 		8EE6F8CC2B4B12FB00C09EE7 /* UIImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePickerController.swift; sourceTree = "<group>"; };
 		8EE6F8CE2B4B132A00C09EE7 /* RoofMeasurementsProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofMeasurementsProcessor.swift; sourceTree = "<group>"; };
@@ -163,10 +168,18 @@
 		8E1104822B5DCA4100C37510 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				8EA660A62B62F09F00A83275 /* RoofScene.scn */,
+				8E6ACFD02B76595900E26688 /* 3DVisualization.xcodeproj */,
 				8EA660AA2B62F31F00A83275 /* RoofScene.swift */,
 			);
 			path = Scene;
+			sourceTree = "<group>";
+		};
+		8E6ACFD12B76595900E26688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E6ACFD52B76595900E26688 /* 3DVisualization.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		8E8E9C4D2B50A89C0066374B /* Localization */ = {
@@ -181,9 +194,7 @@
 			children = (
 				8E54F2A62B532BB4007E4B00 /* AppDelegate.swift */,
 				8EF5CA522B55844A004CD294 /* SceneDelgate.swift */,
-				8E38756D2B56F59F00F78A49 /* plist.plist */,
-				8E905EFB2B45DC4D0032B24E /* Info.plist */,
-				8E589F312B6C1FDB009AB8B3 /* ARSceneView.swift */,
+				8E44C1A02B76A1E80072C587 /* Info.plist */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -403,6 +414,12 @@
 			);
 			productRefGroup = 8EA19F952AF6E0AA00FE87FA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8E6ACFD12B76595900E26688 /* Products */;
+					ProjectRef = 8E6ACFD02B76595900E26688 /* 3DVisualization.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8EA19F932AF6E0AA00FE87FA /* Perfection Metals Quick Measure & Design */,
@@ -410,17 +427,39 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		8E6ACFD52B76595900E26688 /* 3DVisualization.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = 3DVisualization.app;
+			remoteRef = 8E6ACFD42B76595900E26688 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		8EA19F922AF6E0AA00FE87FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E905EFC2B45DC4D0032B24E /* Info.plist in Resources */,
+				8E38758A2B5784C700F78A49 /* HomeOwner+CoreDataClass.swift in Resources */,
+				8EE6F8F52B4B64F700C09EE7 /* NetworkingService.swift in Resources */,
+				8E3875802B5784C700F78A49 /* RoofMeasurement+CoreDataClass.swift in Resources */,
+				8EE6F8F72B4B652C00C09EE7 /* DataPersistenceService.swift in Resources */,
+				8E3875852B5784C700F78A49 /* Visualization+CoreDataProperties.swift in Resources */,
+				8E3875822B5784C700F78A49 /* UserAccount+CoreDataClass.swift in Resources */,
+				8E3875862B5784C700F78A49 /* Jobsite+CoreDataClass.swift in Resources */,
+				8E38758B2B5784C700F78A49 /* HomeOwner+CoreDataProperties.swift in Resources */,
+				8E3875872B5784C700F78A49 /* Jobsite+CoreDataProperties.swift in Resources */,
+				8E3875812B5784C700F78A49 /* RoofMeasurement+CoreDataProperties.swift in Resources */,
+				8E3875892B5784C700F78A49 /* Photo+CoreDataProperties.swift in Resources */,
+				8E3875842B5784C700F78A49 /* Visualization+CoreDataClass.swift in Resources */,
+				8E3875832B5784C700F78A49 /* UserAccount+CoreDataProperties.swift in Resources */,
+				8E3875882B5784C700F78A49 /* Photo+CoreDataClass.swift in Resources */,
+				8E44C1A12B76A1E80072C587 /* Info.plist in Resources */,
 				8EFA2DF12B5821C700E31902 /* GoogleService-Info-1.plist in Resources */,
-				8E38756E2B56F59F00F78A49 /* plist.plist in Resources */,
 				8EA19F9F2AF6E0AD00FE87FA /* Preview Assets.xcassets in Resources */,
 				8EA19F9C2AF6E0AD00FE87FA /* Assets.xcassets in Resources */,
-				8EA660A72B62F09F00A83275 /* RoofScene.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,11 +471,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EE6F8CF2B4B132A00C09EE7 /* RoofMeasurementsProcessor.swift in Sources */,
-				8E3875872B5784C700F78A49 /* Jobsite+CoreDataProperties.swift in Sources */,
 				8EF5CA532B55844A004CD294 /* SceneDelgate.swift in Sources */,
 				8EFA2DF02B581F7100E31902 /* perfectionmetalsquickmeasure.swift in Sources */,
 				8EE6F8D12B4B135A00C09EE7 /*  Roof3DVisualizationView.swift in Sources */,
-				8E3875802B5784C700F78A49 /* RoofMeasurement+CoreDataClass.swift in Sources */,
 				8EA660AB2B62F31F00A83275 /* RoofScene.swift in Sources */,
 				8E0142722B3F63AD00E7CAF3 /* QuoteGenerationView.swift in Sources */,
 				8EE6F9022B4BA85E00C09EE7 /* RoofMeasurement.swift in Sources */,
@@ -446,33 +483,20 @@
 				8EA660A92B62F2CE00A83275 /* RoofSceneView.swift in Sources */,
 				8E01426A2B3F62C500E7CAF3 /* ImageCaptureView.swift in Sources */,
 				8EA070BE2B50903000925619 /* EnterAddressView.swift in Sources */,
-				8E38758A2B5784C700F78A49 /* HomeOwner+CoreDataClass.swift in Sources */,
 				8EDD69942B5081C3004B7524 /* PerfectionMetalsQuickMeasureApp.swift in Sources */,
-				8EE6F8F72B4B652C00C09EE7 /* DataPersistenceService.swift in Sources */,
 				8EE6F8FB2B4B65A700C09EE7 /* RoofVisualizationViewModel.swift in Sources */,
 				8EA070C02B50924300925619 /* HeaderLogoView.swift in Sources */,
-				8EE6F8F52B4B64F700C09EE7 /* NetworkingService.swift in Sources */,
-				8E3875822B5784C700F78A49 /* UserAccount+CoreDataClass.swift in Sources */,
 				8EA35A0A2B60610B00365E7D /* OrderReportView.swift in Sources */,
-				8E589F322B6C1FDB009AB8B3 /* ARSceneView.swift in Sources */,
 				8EE6F8D32B4B138F00C09EE7 /* ColorCustomizationView.swift in Sources */,
-				8E3875862B5784C700F78A49 /* Jobsite+CoreDataClass.swift in Sources */,
 				8EDD698A2B506760004B7524 /* ContentView.swift in Sources */,
-				8E3875852B5784C700F78A49 /* Visualization+CoreDataProperties.swift in Sources */,
 				8EA070BC2B508F9F00925619 /* PlaceOrderView.swift in Sources */,
 				8EA35A112B62047C00365E7D /* PropertyAddressInputView.swift in Sources */,
 				8EE6F8CD2B4B12FB00C09EE7 /* UIImagePickerController.swift in Sources */,
-				8E38758B2B5784C700F78A49 /* HomeOwner+CoreDataProperties.swift in Sources */,
-				8E3875892B5784C700F78A49 /* Photo+CoreDataProperties.swift in Sources */,
 				8E11047A2B5C76D600C37510 /* Styles.swift in Sources */,
-				8E3875842B5784C700F78A49 /* Visualization+CoreDataClass.swift in Sources */,
-				8E3875882B5784C700F78A49 /* Photo+CoreDataClass.swift in Sources */,
 				8EE6F9042B4C682300C09EE7 /* Color+Extensions.swift in Sources */,
-				8E3875832B5784C700F78A49 /* UserAccount+CoreDataProperties.swift in Sources */,
 				8EF5CA512B5582A9004CD294 /* Extensions.swift in Sources */,
 				8EADC2852B66F48100BB7C1D /* PropertyType.swift in Sources */,
 				8EDD69822B505921004B7524 /* LoginView.swift in Sources */,
-				8E3875812B5784C700F78A49 /* RoofMeasurement+CoreDataProperties.swift in Sources */,
 				8EFA2DF52B599DF100E31902 /* CreateAccountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -609,7 +633,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Perfection Metals Quick Measure & Design/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -641,7 +665,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Perfection Metals Quick Measure & Design/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

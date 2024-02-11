@@ -4,46 +4,29 @@
 //
 //  Created by Jeff Sager on 1/11/24.
 //
+
 import SwiftUI
 
 struct LoginView: View {
+    @Binding var isShowingLoginView: Bool
     @State private var username: String = ""
     @State private var password: String = ""
-    
-    var body: some View {
-        NavigationView {
-            VStack {
-                HeaderLogoView()
-                    .frame(height: 150)
-                    .padding(.top, 50)
-                Text("Quick Measure & Design")
-                    .font(.title)
-                    .padding()
-                TextField("Phone Number, Username or Email", text: $username)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding(.horizontal)
-                SecureField("Password", text: $password)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding(.horizontal)
-                Button("Log In") {
-                    // TODO: Implement login functionality
-                }
-                .buttonStyle(PrimaryButtonStyle())
-                Button("Forgot Password?") {
-                    // TODO: Implement forgot password functionality
-                }
-                .padding()
-                Spacer()
-                NavigationLink("Don't have an account? Sign Up", destination: CreateAccountView())
-                    .padding(.bottom, 20)
-            }
-            .navigationBarTitle("Login", displayMode: .inline)
-        }
-    }
-}
 
-struct LoginView_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginView()
+    var body: some View {
+        VStack {
+            // Replace with your own login UI components
+            TextField("Username", text: $username)
+                .padding()
+                .border(Color.gray)
+            SecureField("Password", text: $password)
+                .padding()
+                .border(Color.gray)
+            Button("Log In") {
+                // Perform login action and switch views
+                self.isShowingLoginView = false
+                // Implement your login logic here
+            }
+            .padding()
+        }
     }
 }

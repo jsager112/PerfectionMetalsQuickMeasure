@@ -12,18 +12,22 @@
 	<string>6.0</string>
 	<key>UIInterfaceOrientationsPortraitUpsideDown</key>
 	<string>6.0</string>
-	<key>UIRequiredDeviceCapabilities</key>
-	<array/>
-	<key>Camera</key>
-	<string>0</string>
-	<key>NSCameraUsageDescription</key>
-	<string>This app requires photo access to store photos of each roofing project </string>
+	<key> Location When In Use Usage Description</key>
+	<string>This app requires location access to take photos of your property for measurements</string>
+	<key>CFBundleExecutable</key>
+	<string></string>
 	<key>GPS</key>
 	<string>6.0</string>
-	<key>Armv7</key>
-	<string>6.0</string>
-	<key>Location</key>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array/>
+	<key>Camera </key>
+	<string></string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app requires camera access to take photos of each roofing project</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>This app requires location access to take photos of your property for measurements</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
 	<key>Photos</key>
 	<string>This app requires photo access to store photos of your property </string>
 	<key>CFBundleVersion</key>

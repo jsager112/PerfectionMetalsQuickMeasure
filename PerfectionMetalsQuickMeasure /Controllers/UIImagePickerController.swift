@@ -18,7 +18,7 @@ class ImageCaptureController: UIViewController, AVCapturePhotoCaptureDelegate {
         // Begin setting up the session here
         setupCaptureSession()
     }
-
+    
     func setupCaptureSession() {
         captureSession = AVCaptureSession()
         captureSession.beginConfiguration()
@@ -41,7 +41,6 @@ class ImageCaptureController: UIViewController, AVCapturePhotoCaptureDelegate {
 
         captureSession.startRunning()
     }
-
     // MARK: - AVCapturePhotoCaptureDelegate
     func photoOutput(_ output: AVCapturePhotoOutput, didFinishProcessingPhoto photo: AVCapturePhoto, error: Error?) {
         // Process captured photo
