@@ -35,10 +35,11 @@ struct PerfectionMetalsApp: App {
 }
 
 struct ContentView: View {
-struct ContentView: View {
-    var body: some View {
-        Text("LoginView")
+    typealias Body = <#type#>
+    
+    struct ContentView: View {
+        var body: some View {
+            Text("LoginView")
+        }
     }
 }
-
-
