@@ -21,3 +21,11 @@ struct PrimaryButtonStyle: ButtonStyle {
             .animation(.spring(), value: configuration.isPressed)
     }
 }
+struct StylesView: View {
+    var body: some View {
+        Button("Press Me") {
+            // Handle button press
+        }
+        .buttonStyle(PrimaryButtonStyle())
+    }
+}

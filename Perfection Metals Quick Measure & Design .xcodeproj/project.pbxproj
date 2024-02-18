@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E01426A2B3F62C500E7CAF3 /* ImageCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0142692B3F62C500E7CAF3 /* ImageCaptureView.swift */; };
-		8E0142722B3F63AD00E7CAF3 /* QuoteGenerationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0142712B3F63AD00E7CAF3 /* QuoteGenerationView.swift */; };
 		8E11047A2B5C76D600C37510 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1104792B5C76D600C37510 /* Styles.swift */; };
 		8E3875802B5784C700F78A49 /* RoofMeasurement+CoreDataClass.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8E3875742B5784C600F78A49 /* RoofMeasurement+CoreDataClass.swift */; };
 		8E3875812B5784C700F78A49 /* RoofMeasurement+CoreDataProperties.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8E3875752B5784C600F78A49 /* RoofMeasurement+CoreDataProperties.swift */; };
@@ -28,55 +26,50 @@
 		8E5148E52B636190006F1E5F /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8E5148E42B636190006F1E5F /* FirebaseAnalyticsSwift */; };
 		8E5148E72B636190006F1E5F /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 8E5148E62B636190006F1E5F /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		8E5148E92B636190006F1E5F /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 8E5148E82B636190006F1E5F /* FirebaseAppCheck */; };
+		8E53BDE92B7FFAE900B2E356 /* RoofScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E53BDE82B7FFAE900B2E356 /* RoofScene.swift */; };
 		8E54F2A72B532BB4007E4B00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E54F2A62B532BB4007E4B00 /* AppDelegate.swift */; };
 		8E589F2E2B6C0E47009AB8B3 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E589F2D2B6C0E47009AB8B3 /* ARKit.framework */; };
+		8E5FFF7E2B7EF7F100B5BFE9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5FFF7D2B7EF7F100B5BFE9 /* HeaderView.swift */; };
+		8E5FFF802B7EFFE000B5BFE9 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5FFF7F2B7EFFE000B5BFE9 /* SignUpViewModel.swift */; };
 		8E905EFE2B460E890032B24E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E905EFD2B460E890032B24E /* SwiftUI.framework */; };
-		8EA070BC2B508F9F00925619 /* PlaceOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA070BB2B508F9F00925619 /* PlaceOrderView.swift */; };
-		8EA070BE2B50903000925619 /* EnterAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA070BD2B50903000925619 /* EnterAddressView.swift */; };
-		8EA070C02B50924300925619 /* HeaderLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA070BF2B50924300925619 /* HeaderLogoView.swift */; };
 		8EA19F9C2AF6E0AD00FE87FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA19F9B2AF6E0AD00FE87FA /* Assets.xcassets */; };
 		8EA19F9F2AF6E0AD00FE87FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EA19F9E2AF6E0AD00FE87FA /* Preview Assets.xcassets */; };
 		8EA19FA72AF6E21500FE87FA /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA19FA62AF6E21500FE87FA /* Metal.framework */; };
-		8EA35A0A2B60610B00365E7D /* OrderReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA35A092B60610B00365E7D /* OrderReportView.swift */; };
-		8EA35A0F2B62042D00365E7D /* PropertyTypeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA35A0E2B62042D00365E7D /* PropertyTypeSelectionView.swift */; };
-		8EA35A112B62047C00365E7D /* PropertyAddressInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA35A102B62047C00365E7D /* PropertyAddressInputView.swift */; };
-		8EA660A92B62F2CE00A83275 /* RoofSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA660A82B62F2CE00A83275 /* RoofSceneView.swift */; };
-		8EA660AB2B62F31F00A83275 /* RoofScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA660AA2B62F31F00A83275 /* RoofScene.swift */; };
-		8EADC2852B66F48100BB7C1D /* PropertyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADC2842B66F48100BB7C1D /* PropertyType.swift */; };
-		8EADC2872B67351A00BB7C1D /* OrderStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EADC2862B67351A00BB7C1D /* OrderStep.swift */; };
-		8EDD69822B505921004B7524 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD69812B505921004B7524 /* LoginView.swift */; };
-		8EDD698A2B506760004B7524 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD69892B506760004B7524 /* ContentView.swift */; };
+		8EAD43CE2B7DB18B00E9BA2D /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43CD2B7DB18B00E9BA2D /* CoreDataStack.swift */; };
+		8EAD43D02B7DB1B300E9BA2D /* MeasurementEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43CF2B7DB1B300E9BA2D /* MeasurementEntity+CoreDataProperties.swift */; };
+		8EAD43D22B7DB1D500E9BA2D /* MeasurementEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43D12B7DB1D500E9BA2D /* MeasurementEntity+CoreDataClass.swift */; };
+		8EAD43D62B7DB25700E9BA2D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43D52B7DB25700E9BA2D /* Constants.swift */; };
+		8EAD43E22B7DBD7900E9BA2D /* PerfectionMetalsQuickMeasureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43E12B7DBD7900E9BA2D /* PerfectionMetalsQuickMeasureApp.swift */; };
+		8EAD43E52B7EAD0600E9BA2D /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43E42B7EAD0600E9BA2D /* MainContentView.swift */; };
+		8EAD43E72B7EAD2500E9BA2D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43E62B7EAD2500E9BA2D /* LoginView.swift */; };
+		8EAD43E92B7EAD4100E9BA2D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43E82B7EAD4100E9BA2D /* SignUpView.swift */; };
+		8EAD43EB2B7EAD5800E9BA2D /* PropertyTypeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43EA2B7EAD5800E9BA2D /* PropertyTypeSelectionView.swift */; };
+		8EAD43ED2B7EAD6E00E9BA2D /* ImageCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43EC2B7EAD6E00E9BA2D /* ImageCaptureView.swift */; };
+		8EAD43EF2B7EAD8300E9BA2D /* OrderSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43EE2B7EAD8300E9BA2D /* OrderSummaryView.swift */; };
+		8EAD43F12B7EAD9B00E9BA2D /* RoofVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43F02B7EAD9B00E9BA2D /* RoofVisualizationView.swift */; };
+		8EAD43F32B7EADC900E9BA2D /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43F22B7EADC900E9BA2D /* UserModel.swift */; };
+		8EAD43F52B7EADE000E9BA2D /* PropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43F42B7EADE000E9BA2D /* PropertyModel.swift */; };
+		8EAD43F92B7EAE8000E9BA2D /* MeasurementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43F82B7EAE8000E9BA2D /* MeasurementModel.swift */; };
+		8EAD43FC2B7EB02E00E9BA2D /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43FB2B7EB02E00E9BA2D /* AuthenticationViewModel.swift */; };
+		8EAD43FE2B7EB04300E9BA2D /* ImageCaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43FD2B7EB04300E9BA2D /* ImageCaptureViewModel.swift */; };
+		8EAD44002B7EB05800E9BA2D /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD43FF2B7EB05800E9BA2D /* OrderViewModel.swift */; };
+		8EAD44022B7EB07000E9BA2D /* VisualizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD44012B7EB07000E9BA2D /* VisualizationViewModel.swift */; };
+		8EAD44042B7EB1FB00E9BA2D /* ARSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD44032B7EB1FB00E9BA2D /* ARSessionManager.swift */; };
+		8EAD44062B7EB21600E9BA2D /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD44052B7EB21600E9BA2D /* ARViewContainer.swift */; };
+		8EAD44082B7EB25C00E9BA2D /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD44072B7EB25C00E9BA2D /* FirebaseManager.swift */; };
+		8EAD440A2B7ECBF900E9BA2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAD44092B7ECBF900E9BA2D /* SceneDelegate.swift */; };
 		8EDD69942B5081C3004B7524 /* PerfectionMetalsQuickMeasureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD69932B5081C3004B7524 /* PerfectionMetalsQuickMeasureApp.swift */; };
 		8EE6F8CD2B4B12FB00C09EE7 /* UIImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6F8CC2B4B12FB00C09EE7 /* UIImagePickerController.swift */; };
 		8EE6F8CF2B4B132A00C09EE7 /* RoofMeasurementsProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6F8CE2B4B132A00C09EE7 /* RoofMeasurementsProcessor.swift */; };
-		8EE6F8D12B4B135A00C09EE7 /*  Roof3DVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6F8D02B4B135A00C09EE7 /*  Roof3DVisualizationView.swift */; };
-		8EE6F8D32B4B138F00C09EE7 /* ColorCustomizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6F8D22B4B138F00C09EE7 /* ColorCustomizationView.swift */; };
 		8EE6F8F52B4B64F700C09EE7 /* NetworkingService.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8EE6F8F42B4B64F700C09EE7 /* NetworkingService.swift */; };
 		8EE6F8F72B4B652C00C09EE7 /* DataPersistenceService.swift in Resources */ = {isa = PBXBuildFile; fileRef = 8EE6F8F62B4B652C00C09EE7 /* DataPersistenceService.swift */; };
-		8EE6F8FB2B4B65A700C09EE7 /* RoofVisualizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6F8FA2B4B65A700C09EE7 /* RoofVisualizationViewModel.swift */; };
-		8EE6F9022B4BA85E00C09EE7 /* RoofMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6F9012B4BA85E00C09EE7 /* RoofMeasurement.swift */; };
 		8EE6F9042B4C682300C09EE7 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE6F9032B4C682300C09EE7 /* Color+Extensions.swift */; };
 		8EE6F9062B4C8C1100C09EE7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE6F9052B4C8C1100C09EE7 /* AVFoundation.framework */; };
 		8EF5CA512B5582A9004CD294 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF5CA502B5582A9004CD294 /* Extensions.swift */; };
-		8EF5CA532B55844A004CD294 /* SceneDelgate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF5CA522B55844A004CD294 /* SceneDelgate.swift */; };
-		8EFA2DF02B581F7100E31902 /* perfectionmetalsquickmeasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA2DEF2B581F7100E31902 /* perfectionmetalsquickmeasure.swift */; };
 		8EFA2DF12B5821C700E31902 /* GoogleService-Info-1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E54F2A82B5339A7007E4B00 /* GoogleService-Info-1.plist */; };
-		8EFA2DF52B599DF100E31902 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFA2DF42B599DF100E31902 /* CreateAccountView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8E6ACFD42B76595900E26688 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8E6ACFD02B76595900E26688 /* 3DVisualization.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8E6518A02B75469600B31C4C;
-			remoteInfo = 3DVisualization;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		8E0142692B3F62C500E7CAF3 /* ImageCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureView.swift; sourceTree = "<group>"; };
-		8E0142712B3F63AD00E7CAF3 /* QuoteGenerationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteGenerationView.swift; sourceTree = "<group>"; };
 		8E1104792B5C76D600C37510 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		8E3875742B5784C600F78A49 /* RoofMeasurement+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RoofMeasurement+CoreDataClass.swift"; path = "../RoofMeasurement+CoreDataClass.swift"; sourceTree = "<group>"; };
 		8E3875752B5784C600F78A49 /* RoofMeasurement+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RoofMeasurement+CoreDataProperties.swift"; path = "../RoofMeasurement+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -91,42 +84,48 @@
 		8E38757E2B5784C600F78A49 /* HomeOwner+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HomeOwner+CoreDataClass.swift"; path = "../HomeOwner+CoreDataClass.swift"; sourceTree = "<group>"; };
 		8E38757F2B5784C600F78A49 /* HomeOwner+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HomeOwner+CoreDataProperties.swift"; path = "../HomeOwner+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		8E44C1A02B76A1E80072C587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E53BDE82B7FFAE900B2E356 /* RoofScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofScene.swift; sourceTree = "<group>"; };
 		8E54F2A62B532BB4007E4B00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E54F2A82B5339A7007E4B00 /* GoogleService-Info-1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-1.plist"; sourceTree = "<group>"; };
 		8E589F2D2B6C0E47009AB8B3 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
-		8E6ACFD02B76595900E26688 /* 3DVisualization.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = 3DVisualization.xcodeproj; path = ../../3DVisualization/3DVisualization.xcodeproj; sourceTree = "<group>"; };
+		8E5FFF7D2B7EF7F100B5BFE9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8E5FFF7F2B7EFFE000B5BFE9 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		8E905EFD2B460E890032B24E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		8EA070BB2B508F9F00925619 /* PlaceOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrderView.swift; sourceTree = "<group>"; };
-		8EA070BD2B50903000925619 /* EnterAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterAddressView.swift; sourceTree = "<group>"; };
-		8EA070BF2B50924300925619 /* HeaderLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderLogoView.swift; sourceTree = "<group>"; };
 		8EA19F942AF6E0AA00FE87FA /* Perfection Metals Quick Measure & Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Perfection Metals Quick Measure & Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EA19F9B2AF6E0AD00FE87FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EA19F9E2AF6E0AD00FE87FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8EA19FA62AF6E21500FE87FA /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
-		8EA35A092B60610B00365E7D /* OrderReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderReportView.swift; sourceTree = "<group>"; };
-		8EA35A0E2B62042D00365E7D /* PropertyTypeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTypeSelectionView.swift; sourceTree = "<group>"; };
-		8EA35A102B62047C00365E7D /* PropertyAddressInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyAddressInputView.swift; sourceTree = "<group>"; };
-		8EA660A82B62F2CE00A83275 /* RoofSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofSceneView.swift; sourceTree = "<group>"; };
-		8EA660AA2B62F31F00A83275 /* RoofScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofScene.swift; sourceTree = "<group>"; };
-		8EADC2842B66F48100BB7C1D /* PropertyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyType.swift; sourceTree = "<group>"; };
-		8EADC2862B67351A00BB7C1D /* OrderStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderStep.swift; sourceTree = "<group>"; };
-		8EDD69812B505921004B7524 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		8EDD69892B506760004B7524 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "PerfectionMetalsQuickMeasure /Views/ContentView.swift"; sourceTree = SOURCE_ROOT; };
+		8EAD43CD2B7DB18B00E9BA2D /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		8EAD43CF2B7DB1B300E9BA2D /* MeasurementEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeasurementEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8EAD43D12B7DB1D500E9BA2D /* MeasurementEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeasurementEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8EAD43D52B7DB25700E9BA2D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8EAD43E12B7DBD7900E9BA2D /* PerfectionMetalsQuickMeasureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectionMetalsQuickMeasureApp.swift; sourceTree = "<group>"; };
+		8EAD43E42B7EAD0600E9BA2D /* MainContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentView.swift; sourceTree = "<group>"; };
+		8EAD43E62B7EAD2500E9BA2D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8EAD43E82B7EAD4100E9BA2D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		8EAD43EA2B7EAD5800E9BA2D /* PropertyTypeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTypeSelectionView.swift; sourceTree = "<group>"; };
+		8EAD43EC2B7EAD6E00E9BA2D /* ImageCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureView.swift; sourceTree = "<group>"; };
+		8EAD43EE2B7EAD8300E9BA2D /* OrderSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSummaryView.swift; sourceTree = "<group>"; };
+		8EAD43F02B7EAD9B00E9BA2D /* RoofVisualizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofVisualizationView.swift; sourceTree = "<group>"; };
+		8EAD43F22B7EADC900E9BA2D /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		8EAD43F42B7EADE000E9BA2D /* PropertyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyModel.swift; sourceTree = "<group>"; };
+		8EAD43F82B7EAE8000E9BA2D /* MeasurementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementModel.swift; sourceTree = "<group>"; };
+		8EAD43FB2B7EB02E00E9BA2D /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		8EAD43FD2B7EB04300E9BA2D /* ImageCaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaptureViewModel.swift; sourceTree = "<group>"; };
+		8EAD43FF2B7EB05800E9BA2D /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
+		8EAD44012B7EB07000E9BA2D /* VisualizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualizationViewModel.swift; sourceTree = "<group>"; };
+		8EAD44032B7EB1FB00E9BA2D /* ARSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSessionManager.swift; sourceTree = "<group>"; };
+		8EAD44052B7EB21600E9BA2D /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		8EAD44072B7EB25C00E9BA2D /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		8EAD44092B7ECBF900E9BA2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8EDD69932B5081C3004B7524 /* PerfectionMetalsQuickMeasureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectionMetalsQuickMeasureApp.swift; sourceTree = "<group>"; };
 		8EE6F8CC2B4B12FB00C09EE7 /* UIImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePickerController.swift; sourceTree = "<group>"; };
 		8EE6F8CE2B4B132A00C09EE7 /* RoofMeasurementsProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofMeasurementsProcessor.swift; sourceTree = "<group>"; };
-		8EE6F8D02B4B135A00C09EE7 /*  Roof3DVisualizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Roof3DVisualizationView.swift"; sourceTree = "<group>"; };
-		8EE6F8D22B4B138F00C09EE7 /* ColorCustomizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCustomizationView.swift; sourceTree = "<group>"; };
 		8EE6F8F42B4B64F700C09EE7 /* NetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
 		8EE6F8F62B4B652C00C09EE7 /* DataPersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceService.swift; sourceTree = "<group>"; };
-		8EE6F8FA2B4B65A700C09EE7 /* RoofVisualizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofVisualizationViewModel.swift; sourceTree = "<group>"; };
-		8EE6F9012B4BA85E00C09EE7 /* RoofMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofMeasurement.swift; sourceTree = "<group>"; };
 		8EE6F9032B4C682300C09EE7 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		8EE6F9052B4C8C1100C09EE7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		8EF5CA502B5582A9004CD294 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		8EF5CA522B55844A004CD294 /* SceneDelgate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelgate.swift; sourceTree = "<group>"; };
-		8EFA2DEF2B581F7100E31902 /* perfectionmetalsquickmeasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perfectionmetalsquickmeasure.swift; sourceTree = "<group>"; };
-		8EFA2DF42B599DF100E31902 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,18 +167,9 @@
 		8E1104822B5DCA4100C37510 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				8E6ACFD02B76595900E26688 /* 3DVisualization.xcodeproj */,
-				8EA660AA2B62F31F00A83275 /* RoofScene.swift */,
+				8E53BDE82B7FFAE900B2E356 /* RoofScene.swift */,
 			);
 			path = Scene;
-			sourceTree = "<group>";
-		};
-		8E6ACFD12B76595900E26688 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8E6ACFD52B76595900E26688 /* 3DVisualization.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8E8E9C4D2B50A89C0066374B /* Localization */ = {
@@ -193,7 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				8E54F2A62B532BB4007E4B00 /* AppDelegate.swift */,
-				8EF5CA522B55844A004CD294 /* SceneDelgate.swift */,
+				8EAD44092B7ECBF900E9BA2D /* SceneDelegate.swift */,
 				8E44C1A02B76A1E80072C587 /* Info.plist */,
 			);
 			path = SupportingFiles;
@@ -215,6 +205,9 @@
 				8E3875792B5784C600F78A49 /* Visualization+CoreDataProperties.swift */,
 				8E3875762B5784C600F78A49 /* UserAccount+CoreDataClass.swift */,
 				8E3875742B5784C600F78A49 /* RoofMeasurement+CoreDataClass.swift */,
+				8EAD43CD2B7DB18B00E9BA2D /* CoreDataStack.swift */,
+				8EAD43CF2B7DB1B300E9BA2D /* MeasurementEntity+CoreDataProperties.swift */,
+				8EAD43D12B7DB1D500E9BA2D /* MeasurementEntity+CoreDataClass.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -222,7 +215,12 @@
 		8EA19F8B2AF6E0AA00FE87FA = {
 			isa = PBXGroup;
 			children = (
-				8EFA2DEF2B581F7100E31902 /* perfectionmetalsquickmeasure.swift */,
+				8EAD43E12B7DBD7900E9BA2D /* PerfectionMetalsQuickMeasureApp.swift */,
+				8EAD43E32B7EA92300E9BA2D /* Views */,
+				8EAD43C32B7DB0BE00E9BA2D /* ViewModels */,
+				8EF5CA4F2B557FED004CD294 /* Models */,
+				8EAD43B42B7DAF6000E9BA2D /* ARKIT */,
+				8EAD43B92B7DAFD300E9BA2D /* Firebase */,
 				8E1104822B5DCA4100C37510 /* Scene */,
 				8E1104812B5DBDDA00C37510 /* Assets */,
 				8E1104782B5C76BD00C37510 /* Styles */,
@@ -246,12 +244,9 @@
 		8EA19F962AF6E0AA00FE87FA /* PerfectionMetalsQuickMeasure  */ = {
 			isa = PBXGroup;
 			children = (
-				8EDD697F2B5055AC004B7524 /* Views */,
-				8EF5CA4F2B557FED004CD294 /* Models */,
 				8EF5CA4C2B557F18004CD294 /* Processors */,
 				8EF5CA4A2B557DEF004CD294 /* Utilities */,
 				8EF5CA492B557B4E004CD294 /* Controllers */,
-				8EE6F8F32B4B649700C09EE7 /* ViewModels */,
 				8EE6F8F22B4B646100C09EE7 /* Services */,
 				8EA19F9D2AF6E0AD00FE87FA /* Preview Content */,
 			);
@@ -277,22 +272,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8EDD697F2B5055AC004B7524 /* Views */ = {
+		8EAD43B42B7DAF6000E9BA2D /* ARKIT */ = {
 			isa = PBXGroup;
 			children = (
-				8EDD69812B505921004B7524 /* LoginView.swift */,
-				8EA35A092B60610B00365E7D /* OrderReportView.swift */,
-				8EA070BD2B50903000925619 /* EnterAddressView.swift */,
-				8EA070BB2B508F9F00925619 /* PlaceOrderView.swift */,
-				8EA070BF2B50924300925619 /* HeaderLogoView.swift */,
-				8EE6F8D02B4B135A00C09EE7 /*  Roof3DVisualizationView.swift */,
-				8EE6F8D22B4B138F00C09EE7 /* ColorCustomizationView.swift */,
-				8E0142712B3F63AD00E7CAF3 /* QuoteGenerationView.swift */,
-				8EFA2DF42B599DF100E31902 /* CreateAccountView.swift */,
-				8EDD69892B506760004B7524 /* ContentView.swift */,
-				8EA35A0E2B62042D00365E7D /* PropertyTypeSelectionView.swift */,
-				8EA35A102B62047C00365E7D /* PropertyAddressInputView.swift */,
-				8EA660A82B62F2CE00A83275 /* RoofSceneView.swift */,
+				8EAD44032B7EB1FB00E9BA2D /* ARSessionManager.swift */,
+				8EAD44052B7EB21600E9BA2D /* ARViewContainer.swift */,
+			);
+			path = ARKIT;
+			sourceTree = "<group>";
+		};
+		8EAD43B92B7DAFD300E9BA2D /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				8EAD44072B7EB25C00E9BA2D /* FirebaseManager.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		8EAD43C32B7DB0BE00E9BA2D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8EAD43FB2B7EB02E00E9BA2D /* AuthenticationViewModel.swift */,
+				8EAD43FD2B7EB04300E9BA2D /* ImageCaptureViewModel.swift */,
+				8EAD43FF2B7EB05800E9BA2D /* OrderViewModel.swift */,
+				8EAD44012B7EB07000E9BA2D /* VisualizationViewModel.swift */,
+				8E5FFF7F2B7EFFE000B5BFE9 /* SignUpViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8EAD43E32B7EA92300E9BA2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8EAD43E62B7EAD2500E9BA2D /* LoginView.swift */,
+				8EAD43E82B7EAD4100E9BA2D /* SignUpView.swift */,
+				8E5FFF7D2B7EF7F100B5BFE9 /* HeaderView.swift */,
+				8EAD43E42B7EAD0600E9BA2D /* MainContentView.swift */,
+				8EAD43EA2B7EAD5800E9BA2D /* PropertyTypeSelectionView.swift */,
+				8EAD43EC2B7EAD6E00E9BA2D /* ImageCaptureView.swift */,
+				8EAD43EE2B7EAD8300E9BA2D /* OrderSummaryView.swift */,
+				8EAD43F02B7EAD9B00E9BA2D /* RoofVisualizationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -315,16 +334,6 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		8EE6F8F32B4B649700C09EE7 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				8E0142692B3F62C500E7CAF3 /* ImageCaptureView.swift */,
-				8EE6F8FA2B4B65A700C09EE7 /* RoofVisualizationViewModel.swift */,
-				8EADC2862B67351A00BB7C1D /* OrderStep.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
 		8EF5CA492B557B4E004CD294 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -338,6 +347,7 @@
 			children = (
 				8EE6F9032B4C682300C09EE7 /* Color+Extensions.swift */,
 				8EF5CA502B5582A9004CD294 /* Extensions.swift */,
+				8EAD43D52B7DB25700E9BA2D /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -353,8 +363,9 @@
 		8EF5CA4F2B557FED004CD294 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8EE6F9012B4BA85E00C09EE7 /* RoofMeasurement.swift */,
-				8EADC2842B66F48100BB7C1D /* PropertyType.swift */,
+				8EAD43F22B7EADC900E9BA2D /* UserModel.swift */,
+				8EAD43F42B7EADE000E9BA2D /* PropertyModel.swift */,
+				8EAD43F82B7EAE8000E9BA2D /* MeasurementModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -414,28 +425,12 @@
 			);
 			productRefGroup = 8EA19F952AF6E0AA00FE87FA /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 8E6ACFD12B76595900E26688 /* Products */;
-					ProjectRef = 8E6ACFD02B76595900E26688 /* 3DVisualization.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				8EA19F932AF6E0AA00FE87FA /* Perfection Metals Quick Measure & Design */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		8E6ACFD52B76595900E26688 /* 3DVisualization.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = 3DVisualization.app;
-			remoteRef = 8E6ACFD42B76595900E26688 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8EA19F922AF6E0AA00FE87FA /* Resources */ = {
@@ -471,33 +466,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EE6F8CF2B4B132A00C09EE7 /* RoofMeasurementsProcessor.swift in Sources */,
-				8EF5CA532B55844A004CD294 /* SceneDelgate.swift in Sources */,
-				8EFA2DF02B581F7100E31902 /* perfectionmetalsquickmeasure.swift in Sources */,
-				8EE6F8D12B4B135A00C09EE7 /*  Roof3DVisualizationView.swift in Sources */,
-				8EA660AB2B62F31F00A83275 /* RoofScene.swift in Sources */,
-				8E0142722B3F63AD00E7CAF3 /* QuoteGenerationView.swift in Sources */,
-				8EE6F9022B4BA85E00C09EE7 /* RoofMeasurement.swift in Sources */,
-				8EA35A0F2B62042D00365E7D /* PropertyTypeSelectionView.swift in Sources */,
-				8EADC2872B67351A00BB7C1D /* OrderStep.swift in Sources */,
+				8EAD43FE2B7EB04300E9BA2D /* ImageCaptureViewModel.swift in Sources */,
+				8EAD43EF2B7EAD8300E9BA2D /* OrderSummaryView.swift in Sources */,
+				8EAD43CE2B7DB18B00E9BA2D /* CoreDataStack.swift in Sources */,
+				8EAD43D22B7DB1D500E9BA2D /* MeasurementEntity+CoreDataClass.swift in Sources */,
+				8EAD440A2B7ECBF900E9BA2D /* SceneDelegate.swift in Sources */,
+				8EAD43E92B7EAD4100E9BA2D /* SignUpView.swift in Sources */,
+				8EAD43F92B7EAE8000E9BA2D /* MeasurementModel.swift in Sources */,
+				8EAD43EB2B7EAD5800E9BA2D /* PropertyTypeSelectionView.swift in Sources */,
+				8EAD44062B7EB21600E9BA2D /* ARViewContainer.swift in Sources */,
 				8E54F2A72B532BB4007E4B00 /* AppDelegate.swift in Sources */,
-				8EA660A92B62F2CE00A83275 /* RoofSceneView.swift in Sources */,
-				8E01426A2B3F62C500E7CAF3 /* ImageCaptureView.swift in Sources */,
-				8EA070BE2B50903000925619 /* EnterAddressView.swift in Sources */,
+				8E53BDE92B7FFAE900B2E356 /* RoofScene.swift in Sources */,
+				8EAD43F32B7EADC900E9BA2D /* UserModel.swift in Sources */,
+				8EAD44082B7EB25C00E9BA2D /* FirebaseManager.swift in Sources */,
 				8EDD69942B5081C3004B7524 /* PerfectionMetalsQuickMeasureApp.swift in Sources */,
-				8EE6F8FB2B4B65A700C09EE7 /* RoofVisualizationViewModel.swift in Sources */,
-				8EA070C02B50924300925619 /* HeaderLogoView.swift in Sources */,
-				8EA35A0A2B60610B00365E7D /* OrderReportView.swift in Sources */,
-				8EE6F8D32B4B138F00C09EE7 /* ColorCustomizationView.swift in Sources */,
-				8EDD698A2B506760004B7524 /* ContentView.swift in Sources */,
-				8EA070BC2B508F9F00925619 /* PlaceOrderView.swift in Sources */,
-				8EA35A112B62047C00365E7D /* PropertyAddressInputView.swift in Sources */,
+				8EAD43D62B7DB25700E9BA2D /* Constants.swift in Sources */,
+				8EAD43FC2B7EB02E00E9BA2D /* AuthenticationViewModel.swift in Sources */,
+				8EAD43F52B7EADE000E9BA2D /* PropertyModel.swift in Sources */,
+				8EAD44042B7EB1FB00E9BA2D /* ARSessionManager.swift in Sources */,
+				8E5FFF802B7EFFE000B5BFE9 /* SignUpViewModel.swift in Sources */,
+				8EAD43E22B7DBD7900E9BA2D /* PerfectionMetalsQuickMeasureApp.swift in Sources */,
+				8E5FFF7E2B7EF7F100B5BFE9 /* HeaderView.swift in Sources */,
 				8EE6F8CD2B4B12FB00C09EE7 /* UIImagePickerController.swift in Sources */,
+				8EAD43E72B7EAD2500E9BA2D /* LoginView.swift in Sources */,
+				8EAD43ED2B7EAD6E00E9BA2D /* ImageCaptureView.swift in Sources */,
+				8EAD43E52B7EAD0600E9BA2D /* MainContentView.swift in Sources */,
 				8E11047A2B5C76D600C37510 /* Styles.swift in Sources */,
 				8EE6F9042B4C682300C09EE7 /* Color+Extensions.swift in Sources */,
 				8EF5CA512B5582A9004CD294 /* Extensions.swift in Sources */,
-				8EADC2852B66F48100BB7C1D /* PropertyType.swift in Sources */,
-				8EDD69822B505921004B7524 /* LoginView.swift in Sources */,
-				8EFA2DF52B599DF100E31902 /* CreateAccountView.swift in Sources */,
+				8EAD44022B7EB07000E9BA2D /* VisualizationViewModel.swift in Sources */,
+				8EAD44002B7EB05800E9BA2D /* OrderViewModel.swift in Sources */,
+				8EAD43F12B7EAD9B00E9BA2D /* RoofVisualizationView.swift in Sources */,
+				8EAD43D02B7DB1B300E9BA2D /* MeasurementEntity+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

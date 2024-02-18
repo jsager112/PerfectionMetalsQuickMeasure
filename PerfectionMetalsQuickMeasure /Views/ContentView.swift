@@ -4,27 +4,56 @@
 //
 //  Created by Jeff Sager on 1/11/24.
 //
+import SwiftUI
 
 import SwiftUI
 
 struct ContentView: View {
-    @State private var isShowingLoginView = true
-
     var body: some View {
+        ARSceneView()
+
         NavigationView {
-            if isShowingLoginView {
-                LoginView(isShowingLoginView: $isShowingLoginView)
-            } else {
-                // Placeholder for other views
-                Text("This is where your other views would be conditionally displayed based on the app's state, for instance: OrderReportView(), CreateAccountView(), etc.")
+            VStack {
+                Text("Perfection Metals Quick Measure & Design")
+                    .font(.largeTitle)
+                    .padding()
+                
+                NavigationLink(destination: CreateAccountView()) {
+                    Text("Create Account")
+                        .frame(minWidth: 0, maxWidth: .infinity)
+                        .padding()
+                        .background(Color.blue)
+                        .cornerRadius(40)
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 50)
+                }
+                
+                NavigationLink(destination: LoginView()) {
+                    Text("Login")
+                        .frame(minWidth: 0, maxWidth: .infinity)
+                        .padding()
+                        .background(Color.green)
+                        .cornerRadius(40)
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 50)
+                }
+                
+                Spacer()
+                
+                Text("Capture images of the property and customize your metal roof.")
+                    .padding()
             }
+            .navigationBarTitle("Welcome")
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView() 
     }
 }
+// ContentView.swift
+import SwiftUI
 
+// ... (Code for ContentView including ARSceneContainerView)
