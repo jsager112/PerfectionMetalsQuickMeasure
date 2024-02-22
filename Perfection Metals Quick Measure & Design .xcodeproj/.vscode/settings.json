@@ -1,7 +1,0 @@
-{}{
-    "files.defaultLanguage": "swift",
-    "editor.tabSize": 4,
-    "editor.formatOnSave": true,
-    "swift.path.sourcekit-lsp": "/path/to/sourcekit-lsp",
-    "swift.languageServer.enabled": true
-}
