@@ -1,0 +1,65 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+      - release/*
+      - hotfix/*
+  pull_request:
+    branches:
+      - main
+      - develop
+      - feature/*
+
+jobs:
+  build-and-test:
+    runs-on: macos-latest
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Xcode (example version, adjust as needed)
+      uses: maxim-lobanov/setup-xcode@v1
+      with:
+        xcode-version: '12.4'
+
+    - name: Build and test
+      run: |
+        xcodebuild -scheme YourScheme -workspace YourWorkspace.xcworkspace build test
+
+  deploy:
+    runs-on: macos-latest
+    needs: build-and-test
+    if: github.ref == 'refs/heads/release/*'
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Deploy to Production
+      run: echo "Deploying to production..."
+
+  integration-tests:
+    runs-on: macos-latest
+    needs: build-and-test
+    if: github.event_name == 'pull_request' && contains(github.head_ref, 'feature/')
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Run Integration Tests
+      run: echo "Running integration tests..."
+
+  hotfix-merge-back:
+    runs-on: macos-latest
+    if: github.ref == 'refs/heads/hotfix/*' && github.event_name == 'push'
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Merge Hotfix back to Main and Develop
+      run: |
+        git checkout main
+        git merge ${{ github.ref }}
+        git push origin main
+        git checkout develop
+        git merge ${{ github.ref }}
+        git push origin develop
